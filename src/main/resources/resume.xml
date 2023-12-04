@@ -1,0 +1,315 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Resume>
+    <Header>
+        <Name>Charles F. Hayes</Name>
+        <Title>Senior Software Engineer</Title>
+        <Address>685 Wuthering Heights Drive</Address>
+        <City>Colorado Springs</City>
+        <State>CO</State>
+        <Zip>80921</Zip>
+        <Phone>303.929.8652</Phone>
+        <Email>charles.hayes@cfhayes.com</Email>
+    </Header>
+    
+    <Section>
+        <Name>Professional Profile</Name>
+        <Description>
+            Results-driven software engineer with over 20 years of hands-on experience. 
+            Proven expertise in designing and implementing robust continuous delivery 
+            pipelines and pioneering continuous testing practices. A seasoned professional 
+            in infrastructure automation and full-stack software test automation. Eager to 
+            contribute my wealth of knowledge and skills to a dynamic team, driving excellence 
+            in software quality and delivery.
+        </Description>
+    </Section>
+    
+    <Section>
+        <Name>Technical Skills</Name>
+        <Description>
+        Java, Python, Javascript, Typescript, Pytest, JUnit5, Docker, 
+        Docker Compose, Kubernetes, Helm, Ansible, Spring, Spring Boot, Quarkus, Microservices, 
+        REST, JSON, Gradle, Maven, Jenkins, Serenity BDD, Cucumber, Selenium Webdriver, 
+        Azure DevOps, AWS, SQL, UML, Technical Writing, Jira, XRay, Confluence
+        </Description>
+    </Section>
+    
+    <Section>
+        <Name>Professional Experience</Name>
+        <Job>
+            <Company>Frontier Technology</Company>
+            <Title>Advisory Software Developer</Title>
+            <Period>July 2023 - Present</Period>
+            <Accomplishments>
+                <Accomplishment>
+                Created an ansible playbook to automate the installation and configuration of Neo4j.
+                </Accomplishment>
+                <Accomplishment>
+                Created an ansible playbook to automate the installation and configuration of a cyber attack analytics web application.
+                </Accomplishment>
+                <Accomplishment>
+                Created an ansible playbook to automate the installation and configuration of a disk cleaner application.
+                </Accomplishment>
+            </Accomplishments>
+        </Job>
+        <Job>
+            <Company>Boeing</Company>
+            <Title>Software Engineer in Test</Title>
+            <Period>July 2020 - July 2023</Period>
+            <Accomplishments>
+                <Accomplishment>
+                Integration, testing and troubleshooting of microservices in a Kubernetes environment.
+                </Accomplishment>
+                <Accomplishment>
+                Created tests with Python and Pytest to test the functionality of the microservices.
+                </Accomplishment>
+                <Accomplishment>
+                Developed a test coverage dashboard to help the team understand the test coverage of the test automation.
+                </Accomplishment>
+            </Accomplishments>
+        </Job>        
+        <Job>
+            <Company>TEKsystems Global Services</Company>
+            <Title>Lead Software Engineer in Test</Title>
+            <Period>September 2019 - July 2020</Period>
+            <Accomplishments>
+                <Accomplishment>
+                Consulted with various clients in the United States to advise and mentor technical 
+                staff on continuous delivery and continuous testing practices. Provided hand-on labs 
+                for developing effective test automation frameworks.
+                </Accomplishment>
+                <Accomplishment>
+                Provided weekly demonstrations of our test automation and presented reports 
+                for requirement coverage and testing progress.
+                </Accomplishment>
+                <Accomplishment>
+                Demonstrated the successful execution of our automated tests in an Azure 
+                DevOps pipeline.
+                </Accomplishment>
+            </Accomplishments>
+        </Job>
+        <Job>
+            <Company>T-Mobile Inc</Company>
+            <Title>Senior Software Engineer in Test</Title>
+            <Period>July 2018 - September 2019</Period>
+            <Accomplishments>
+                <Accomplishment>
+                Designed and developed a robust test automation framework that uses Gradle, Java 11, 
+                JUnit5, Selenide and Allure. This framework was instrumental in ensuring the reliability 
+                and quality of our Layer3 TV STB (Set Top Box) product's user interface.
+                </Accomplishment>
+                <Accomplishment>
+                Implemented unit tests using Jest to enhance code quality and identify potential issues 
+                early in the development cycle. This proactive approach significantly contributed to a 
+                reduction in production defects.
+                </Accomplishment>
+                <Accomplishment>
+                Championed test-driven development (TDD) practices within the organization by delivering 
+                a highly informative "Lunch and Learn" session. Shared insights on the benefits of TDD and 
+                practical strategies for its implementation.
+                </Accomplishment>
+            </Accomplishments>
+        </Job>
+        <Job>
+            <Company>The Judge Group</Company>
+            <Title>Software Engineer in Test (Contracted at Dish Network)</Title>
+            <Period>January 2018 - July 2018</Period>
+            <Accomplishments>
+                <Accomplishment>
+                Developed a test automation framework using Java, Maven, Selenium and Serenity BDD. 
+                This framework was instrumental in ensuring the reliability and quality of Dish Network's 
+                back office products.
+                </Accomplishment>
+                <Accomplishment>
+                Boosted productivity by implementing cucumber Gherkin files and skeleton step definitions
+                that simply throw a pending exception. Our Serenity BDD framework was able to generate test reports 
+                that showed the percentage of implemented steps. 
+                </Accomplishment>
+            </Accomplishments>
+        </Job>
+        <Job>
+            <Company>ITEC</Company>
+            <Title>Software Engineer (Contracted at Raytheon)</Title>
+            <Period>June 2017 - January 2018</Period>
+            <Accomplishments>
+                <Accomplishment>
+                Worked closely with systems engineers, integrators, testers and customers to design a 
+                set of standards and guidelines for building CI/CD pipelines.
+                </Accomplishment>
+                <Accomplishment>
+                Learned the Phillip Kruechten's 4+1 architectural view model and applied it to my 
+                software design and documentation.
+                </Accomplishment>
+            </Accomplishments>
+        </Job>
+        <Job>
+            <Company>TEKsystems</Company>
+            <Title>Software Engineer in Test (Contracted at Comcast)</Title>
+            <Period>July 2016 - December 2016</Period>
+            <Accomplishments>
+                <Accomplishment>
+                Designed custom UI, API and performance test automation frameworks, which resulted in 
+                very rapid delivery of a critical software release.
+                </Accomplishment>
+                <Accomplishment>
+                Exceeded the expections of the client by delivering a high quality test 
+                automation that developers and testers could use to verify the functionality of the
+                video activation system.
+                </Accomplishment>
+            </Accomplishments>
+        </Job>
+        <Job>
+            <Company>Colorado Interactive</Company>
+            <Title>Lead Software Engineer</Title>
+            <Period>Auguust 2014 - April 2016</Period>
+            <Accomplishments>
+                <Accomplishment>
+                Redesigned the web application for registering businesses in Colorado by streamlining 
+                the process for registering a business with Colorado Department of Labor and Employment, 
+                Department of Revenue and Secretary of State. Previously business owners had to fill out 
+                forms in two different web applications.
+                </Accomplishment>
+                <Accomplishment>
+                Developed new software enhancements and bug fixes for web applications used by the 
+                Colorado state government.
+                </Accomplishment>
+                <Accomplishment>
+                Mentored junior engineers through code reviews, pair programming, and knowledge sharing 
+                sessions, enhancing team productivity and skills development.
+                </Accomplishment>
+            </Accomplishments>
+        </Job>
+        <Job>
+            <Company>KForce</Company>
+            <Title>Software Engineer in Test (Contracted at Charter Communications)</Title>
+            <Period>February 2014 - August 2014</Period>
+            <Accomplishments>
+                <Accomplishment>
+                Created tests in Ruby and RSpec to test the functionality of microservices for ingesting 
+                movie data from various sources.
+                </Accomplishment>
+                <Accomplishment>
+                Created tests for verifying the integrity of movie data in a Jackrabbit repository.
+                </Accomplishment>
+            </Accomplishments>
+        </Job>
+        <Job>
+            <Company>TEKsystems</Company>
+            <Title>Senior Software Engineer (Contracted at Charles Schwab)</Title>
+            <Period>February 2013 - December 2013</Period>
+            <Accomplishments>
+                <Accomplishment>
+                Developed a robust software solution enabling Charles Schwab advisors to generate 
+                comprehensive PDF reports for clients. These reports showcase current and proposed 
+                investment portfolios, empowering clients to make informed decisions about their 
+                financial investments.
+                </Accomplishment>
+                <Accomplishment>
+                Collaborated with cross-functional teams to implement an enterprise logging initiative. 
+                This initiative aggregated logs from diverse applications and established a centralized 
+                log viewer using Splunk. The centralized view allowed engineers and support teams to 
+                efficiently troubleshoot issues and swiftly identify root causes by providing real-time 
+                insights into events across multiple servers and applications.
+                </Accomplishment>
+            </Accomplishments>
+        </Job>
+        <Job>
+            <Company>McKesson Corporation</Company>
+            <Title>Senior Software Engineer</Title>
+            <Period>May 2010 to February 2013</Period>
+            <Accomplishments>
+                <Accomplishment>
+                Developed new web service contracts (WSDL) and designed message payloads and 
+                transformations for McKesson's Healthcare Management System.
+                </Accomplishment>
+                <Accomplishment>
+                Modernized healthcare management software to be compliant with the new ARRA 
+                (American Rediscovery and Reinvestment Act) initiative.
+                </Accomplishment>
+            </Accomplishments>
+        </Job>
+        <Job>
+            <Company>TEKsystems</Company>
+            <Title>JUnit Developer (Contracted at Mckesson)</Title>
+            <Period>January 2009 to May 2010</Period>
+            <Accomplishments>
+                <Accomplishment>
+                Successfully implemented a data-driven integration testing framework that can 
+                dynamically instantiate appropriate test objects based on the information in SOAP 
+                headers. This was for testing message processing and routing in a messaging system (JMS).
+                </Accomplishment>
+            </Accomplishments>
+        </Job>        
+        <Job>
+            <Company>NetPolarity</Company>
+            <Title>Java Engineer (Contracted at Charles Schwab)</Title>
+            <Period>January 2008 - December 2008</Period>
+            <Accomplishments>
+                <Accomplishment>
+                Developed new web services for aggregating gain/loss data for Charles Schwab's
+                PortfolioCenter product.
+                </Accomplishment>
+                <Accomplishment>
+                Developed automated API tests using SoapUI.
+                </Accomplishment>
+                <Accomplishment>
+                Extended the capabilities of SoapUI by developing custom plugins in Java.
+                </Accomplishment>
+            </Accomplishments>
+        </Job>
+        <Job>
+            <Company>Electronic Data Systems</Company>
+            <Title>Software Engineer</Title>
+            <Period>April 2005 - August 2007</Period>
+            <Accomplishments>
+                <Accomplishment>
+                Successfully helped a team build a Message Oriented Middleware solution for a client. 
+                Replaced an old CORBA architecture with a more modern JMS architecture.
+                </Accomplishment>
+                <Accomplishment>
+                Implemented security in a single sign-on application. Configured Weblogic with 2-way SSL, 
+                created Java keystores, and configured time synchronization and security policies in 
+                Weblogic.
+                </Accomplishment>
+            </Accomplishments>
+        </Job>
+        <Job>
+            <Company>Sun Microsystems</Company>
+            <Title>Software Engineer</Title>
+            <Period>January 2000 - April 2005</Period>
+            <Accomplishments>
+                <Accomplishment>
+                Developed "Fact" classes and parsers for a rule engine used to perform 
+                predictive analytics.
+                </Accomplishment>
+                <Accomplishment>
+                Learned a new programming language called KPL (Knowledge Predicate Language) 
+                which I used in the rule engine for determining risk outcomes.
+                </Accomplishment>
+                <Accomplishment>
+                Responsible for requirements gathering, OOAD, development, testing, and deployment 
+                of a 3-tier web application.
+                </Accomplishment>
+                <Accomplishment>
+                Implemented software design patterns in a web application that empowered the 
+                customer to generate a wide variety of report types.
+                </Accomplishment>
+            </Accomplishments>
+        </Job>      
+    </Section>
+
+    <Section>
+        <Education>
+            <School>
+                <Name>Sun Certified Java Programmer</Name>
+                <Period>2006</Period>
+                <Major></Major>
+            </School>
+            <School>
+                <Name>Regis University</Name>
+                <Period>2000 - 2001</Period>
+                <Major>Completed 27 semester hours in Computer Science as funding permitted.</Major>
+            </School>
+        </Education>    
+    </Section>
+    
+</Resume>

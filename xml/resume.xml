@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Resume>
+    <Header>
+        <Name>Charles F. Hayes</Name>
+        <Title>Senior Software Engineer</Title>
+        <Address>5260 S. Jellison Street</Address>
+        <City>Littleton</City> 
+        <State>CO</State>
+        <Zip>80123</Zip>
+        <Phone>303.668.0934</Phone>
+        <Email>cfhayes16@gmail.com</Email>
+    </Header>
+    
+    <Section>
+        <Name>Professional Profile</Name>
+        <Description>
+            Software developer with over 12 years experience developing enterprise applications. 
+            My broad range of technical expertise, enthusiasm, resourcefulness, positive attitude and 
+            proven ability as a very strong self-starter make me a great asset to any organization.
+        </Description>
+    </Section>
+    
+    <Section>
+        <Name>Technical Skills</Name>
+        <Description>
+            Java, WSDL, SOAP, SoapUI, XML, XML Schema, XSL, JAXB, XSL-FO, Spring, Hibernate, SQL, UML, 
+            Design Patterns, EJB3, HTML4, HTML5, JQuery, CSS2, CSS3, JSP, JavaScript, JUnit, Eclipse, 
+            Maven, ANT, JBoss, Weblogic, WebSphere, Test-driven Development, Clear Case, 
+            Team Foundation Server (TFS), Rally
+        </Description>
+    </Section>
+    
+    <Section>
+        <Name>Professional Experience</Name>
+        <Job>
+            <Company>Charles Schwab - Contractor</Company>
+            <Title>Software Engineer</Title>
+            <Period>Feb 2013 - Present</Period>
+            <Description>
+            Design, code and test new software components and enhancements. Worked in a fast-paced 
+            agile environment with 2 week sprints. Participated in design reviews and code reviews. 
+            Mentored other developers and assisted with environment setup issues. Wrote a detailed 
+            software design specification for a new software component.
+            </Description>
+        </Job>
+        <Job>
+            <Company>Charles Schwab - Contractor</Company>
+            <Title>Software Engineer</Title>
+            <Period>Feb 2013 - Present</Period>
+            <Description>
+            Design, code and test new software components and enhancements. Worked in a fast-paced 
+            agile environment with 2 week sprints. Participated in design reviews and code reviews. 
+            Mentored other developers and assisted with environment setup issues. Wrote a detailed 
+            software design specification for a new software component.
+            </Description>
+        </Job>
+    </Section>
+
+    <Section>
+        <Name>Foreign Languages</Name>
+    </Section>
+
+    <Section>
+        <Name>Education / Certification</Name>
+    </Section>
+    
+</Resume>

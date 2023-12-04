@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Recipe>
+    <Name>Vegetable Lo Mein</Name>
+    <Description>Egg noodles that are stir-fried together with vegetables.</Description>
+    <Ingredients>
+        <Ingredient>5 oz. carrots, thinly sliced</Ingredient>
+        <Ingredient>4 oz. Chinese cabbage, shredded</Ingredient>
+        <Ingredient>4 oz. bean sprouts</Ingredient>
+        <Ingredient>16 oz. Chinese egg noodles, cooked</Ingredient>
+        <Ingredient>4 tbsp. hoisin sauce</Ingredient>
+        <Ingredient>2 tbsp. light soy sauce</Ingredient>
+        <Ingredient>2 tbsp. rice cooking wine</Ingredient>
+        <Ingredient>2 tbsp. sesame oil</Ingredient>
+        <Ingredient>1 tbsp. vegetable oil</Ingredient>
+    </Ingredients>
+    <Directions>
+        <Paragraph>Slice the carrots in a food processor and set aside. Slice about 4 oz of cabbage very thin 
+        and set aside.</Paragraph>
+        <Paragraph>In a small glass dish, mix the hoisin sauce, soy sauce, rice wine and sesame oil. Set aside.</Paragraph>
+        <Paragraph>Heat the vegetable oil in a wok on high heat. Add the vegetables and stir-fry for about 2 
+        minutes. Push the vegetables aside in the wok, making room at the bottom of the wok for the sauce. Pour 
+        in the sauce mixture and allow it to start bubbling. Start folding the vegetables into the sauce and continue 
+        stir-frying for about 3 more minutes.</Paragraph>
+        <Paragraph>Add the noodles to the wok and continue stir-frying for another 2 - 3 minutes.</Paragraph>
+    </Directions>
+    <Nutrition>
+        <Servings>4</Servings>
+        <Calories>320</Calories>
+        <Protein>30g</Protein>
+        <Fat>12g</Fat>
+        <Fiber>1g</Fiber>
+        <Sugar>8g</Sugar>
+        <Carbs>220</Carbs>
+    </Nutrition>
+</Recipe>
