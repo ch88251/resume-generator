@@ -69,9 +69,4 @@ public class PDFGenerator {
         }
     }
 
-    private static FopFactory getFopFactoryConfiguredFromFileSystem(String configFileName) throws Exception {
-        FopFactory fopFactory = FopFactory.newInstance(new File("src/main/resources/" + configFileName));
-        return fopFactory;
-    }
-
 }
