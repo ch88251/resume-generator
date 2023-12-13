@@ -12,27 +12,28 @@
     </Header>
     
     <Section>
-        <Name>Professional Profile</Name>
+        <Name>Objective</Name>
         <Description>
-            Results-driven software engineer with over 20 years of hands-on experience. 
-            Proven expertise in designing and implementing robust continuous delivery 
-            pipelines and pioneering continuous testing practices. A seasoned professional 
-            in infrastructure automation and full-stack software test automation. Eager to 
-            contribute my wealth of knowledge and skills to a dynamic team, driving excellence 
-            in software quality and delivery.
+        With over 20 years in software engineering, I bring extensive expertise in enterprise Java, Spring, 
+        messaging, and web services. My proficiency extends beyond back-end development, encompassing a broad 
+        spectrum of languages such as Python and C++. Eager to embrace new challenges, I've recently delved 
+        into modern front-end technologies, positioning myself as a versatile full-stack developer. My 
+        commitment to continuous learning and a proven track record of delivering successful projects 
+        underscore my adaptability and resourcefulness in navigating diverse tech stacks. Ready to contribute 
+        dynamic solutions and drive innovation in any full-stack software engineering role.
         </Description>
     </Section>
     
     <Section>
         <Name>Technical Skills</Name>
         <Description>
-        Java, Python, Javascript, Typescript, Pytest, JUnit5, Docker, 
-        Docker Compose, Kubernetes, Helm, Ansible, Spring, Spring Boot, Quarkus, Microservices, 
-        REST, JSON, Gradle, Maven, Jenkins, Serenity BDD, Cucumber, Selenium Webdriver, 
-        Azure DevOps, AWS, SQL, UML, Technical Writing, Jira, XRay, Confluence
+        Java, JUnit, Maven, Gradle, Python, Pytest, C++, CMake, GoogleTest, GoogleMock, 
+        Javascript, Typescript, Next.js, React, Angular, Docker, Docker Compose, Kubernetes, 
+        Helm, Ansible, Spring, Spring Boot, Quarkus, Microservices, REST, JSON, Jenkins, 
+        HTML5, CSS3, Tailwind CSS, Bootstrap, Git, Github, Gitlab, Bitbucket, Jira, Confluence
         </Description>
     </Section>
-    
+
     <Section>
         <Name>Professional Experience</Name>
         <Job>
@@ -295,6 +296,17 @@
                 </Accomplishment>
             </Accomplishments>
         </Job>      
+    </Section>
+
+    <Section>
+        <Name>Personal Projects</Name>
+        <Project>
+            <Name>cfhayes.com</Name>
+            <Description>
+            Developed a personal website using Next.js, React, Typescript, Tailwind CSS, and Docker. 
+            The website is hosted on AWS using an EC2 instance and an S3 bucket.
+            </Description>
+        </Project>
     </Section>
 
     <Section>

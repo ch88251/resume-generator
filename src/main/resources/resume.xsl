@@ -64,7 +64,9 @@
                                         text-align="right">
                                         <fo:inline>
                                         <xsl:value-of select="Header/City"/>
+                                        <xsl:text>, </xsl:text>
                                         <xsl:value-of select="Header/State"/>
+                                        <xsl:text> </xsl:text>
                                         <xsl:value-of select="Header/Zip"/>
                                         </fo:inline>
                                     </fo:block>
