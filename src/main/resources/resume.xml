@@ -111,23 +111,6 @@
             </Accomplishments>
         </Job>
         <Job>
-            <Company>The Judge Group</Company>
-            <Title>Software Engineer in Test (Contracted at Dish Network)</Title>
-            <Period>January 2018 - July 2018</Period>
-            <Accomplishments>
-                <Accomplishment>
-                Developed a test automation framework using Java, Maven, Selenium and Serenity BDD. 
-                This framework was instrumental in ensuring the reliability and quality of Dish Network's 
-                back office products.
-                </Accomplishment>
-                <Accomplishment>
-                Boosted productivity by implementing cucumber Gherkin files and skeleton step definitions
-                that simply throw a pending exception. Our Serenity BDD framework was able to generate test reports 
-                that showed the percentage of implemented steps. 
-                </Accomplishment>
-            </Accomplishments>
-        </Job>
-        <Job>
             <Company>ITEC</Company>
             <Title>Software Engineer (Contracted at Raytheon)</Title>
             <Period>June 2017 - January 2018</Period>
@@ -139,22 +122,6 @@
                 <Accomplishment>
                 Learned the Phillip Kruechten's 4+1 architectural view model and applied it to my 
                 software design and documentation.
-                </Accomplishment>
-            </Accomplishments>
-        </Job>
-        <Job>
-            <Company>TEKsystems</Company>
-            <Title>Software Engineer in Test (Contracted at Comcast)</Title>
-            <Period>July 2016 - December 2016</Period>
-            <Accomplishments>
-                <Accomplishment>
-                Designed custom UI, API and performance test automation frameworks, which resulted in 
-                very rapid delivery of a critical software release.
-                </Accomplishment>
-                <Accomplishment>
-                Exceeded the expections of the client by delivering a high quality test 
-                automation that developers and testers could use to verify the functionality of the
-                video activation system.
                 </Accomplishment>
             </Accomplishments>
         </Job>
@@ -176,20 +143,6 @@
                 <Accomplishment>
                 Mentored junior engineers through code reviews, pair programming, and knowledge sharing 
                 sessions, enhancing team productivity and skills development.
-                </Accomplishment>
-            </Accomplishments>
-        </Job>
-        <Job>
-            <Company>KForce</Company>
-            <Title>Software Engineer in Test (Contracted at Charter Communications)</Title>
-            <Period>February 2014 - August 2014</Period>
-            <Accomplishments>
-                <Accomplishment>
-                Created tests in Ruby and RSpec to test the functionality of microservices for ingesting 
-                movie data from various sources.
-                </Accomplishment>
-                <Accomplishment>
-                Created tests for verifying the integrity of movie data in a Jackrabbit repository.
                 </Accomplishment>
             </Accomplishments>
         </Job>
@@ -299,20 +252,9 @@
     </Section>
 
     <Section>
-        <Name>Personal Projects</Name>
-        <Project>
-            <Name>cfhayes.com</Name>
-            <Description>
-            Developed a personal website using Next.js, React, Typescript, Tailwind CSS, and Docker. 
-            The website is hosted on AWS using an EC2 instance and an S3 bucket.
-            </Description>
-        </Project>
-    </Section>
-
-    <Section>
         <Education>
             <School>
-                <Name>Sun Certified Java Programmer</Name>
+                <Name>Oracle Certified Java Programmer</Name>
                 <Period>2006</Period>
                 <Major></Major>
             </School>
