@@ -16,10 +16,10 @@
                     master-name="simpleA4" 
                     page-height="11in" 
                     page-width="8.5in" 
-                    margin-top="1.0in" 
-                    margin-bottom="1.0in" 
-                    margin-left="1.0in" 
-                    margin-right="1.0in" 
+                    margin-top="0.5in" 
+                    margin-bottom="0.5in" 
+                    margin-left="0.5in" 
+                    margin-right="0.5in" 
                     font-family="Roboto">
                     <fo:region-body/>
                 </fo:simple-page-master>
