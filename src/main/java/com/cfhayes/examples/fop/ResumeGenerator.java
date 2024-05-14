@@ -16,7 +16,7 @@ import java.io.OutputStream;
 /**
  * This class uses XSL and FOP to generate a PDF from an XML file.
  */
-public class PDFGenerator {
+public class ResumeGenerator {
 
     public static void main(String[] args) {
 
