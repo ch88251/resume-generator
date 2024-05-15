@@ -20,14 +20,9 @@ public class ResumeGenerator {
 
     public static void main(String[] args) {
 
-        if (args.length != 3) {
-            System.out.println("Usage: java -jar fop.jar -xml xmlfile -xsl xsltfile -pdf pdffile");
-            System.exit(-1);
-        }
-
-        String xmlPath = args[0];
-        String xslPath = args[1];
-        String pdfOutputPath = args[2];
+        String xmlPath = "src/main/resources/resume.xml";
+        String xslPath = "src/main/resources/resume.xsl";
+        String pdfOutputPath = "src/main/resources/resume.pdf";
 
         try {
             File xmlfile = new File(xmlPath);
