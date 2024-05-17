@@ -11,3 +11,4 @@ formatting.
 mvn clean package
 java -jar target/resume-generator-0.0.1-SNAPSHOT-jar-with-dependencies.jar
 ```
+The resume will be located in the target directory.
