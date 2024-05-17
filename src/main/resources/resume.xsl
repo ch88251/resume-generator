@@ -143,8 +143,10 @@
                                         <xsl:value-of select="Summary"/>
                                     </fo:block>
                                     <fo:block margin-top="20px"
+                                        padding="5px"
                                         background-color="#CD6155"
-                                        font-size="20pt" 
+                                        text-align="center"
+                                        font-size="16pt" 
                                         color="#FFFFFF">
                                         <xsl:value-of select="Clearance"/>
                                     </fo:block>
