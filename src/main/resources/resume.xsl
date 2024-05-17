@@ -26,157 +26,224 @@
             </fo:layout-master-set>
             <fo:page-sequence master-reference="simpleA4">
                 <fo:flow flow-name="xsl-region-body">
-                    <fo:table>
-                        <fo:table-column width="4.0in"/>
-                        <fo:table-column width="2.5in"/>
+                    <fo:table background-color="#CD6155">
                         <fo:table-body>
                             <fo:table-row>
-                                <fo:table-cell 
-                                    border-bottom-style="solid" 
-                                    border-bottom-color="#336699" 
-                                    border-bottom-width="1px">
+                                <fo:table-cell width="3.0in" color="#FDFEFE" padding="6mm 6mm 6mm 6mm">
                                     <fo:block 
                                         font-size="20pt" 
-                                        font-weight="bold"
-                                        color="#336699">
+                                        font-weight="bold">
                                         <xsl:value-of select="Header/Name"/>
                                     </fo:block>
                                     <fo:block
                                         font-size="12pt" 
-                                        font-weight="bold"
-                                        color="#336699">
+                                        font-weight="bold">
                                         <xsl:value-of select="Header/Title"/>
                                     </fo:block>
                                 </fo:table-cell>
-                                <fo:table-cell 
-                                    border-bottom-style="solid" 
-                                    border-bottom-color="#336699" 
-                                    border-bottom-width="1px">
-                                    <fo:block
-                                        font-size="12pt"
-                                        color="#336699"
-                                        text-align="right">
-                                        <xsl:value-of select="Header/Address"/>
-                                    </fo:block>
-                                    <fo:block
-                                        font-size="12pt"
-                                        color="#336699"
-                                        text-align="right">
-                                        <fo:inline>
-                                        <xsl:value-of select="Header/City"/>
-                                        <xsl:text>, </xsl:text>
-                                        <xsl:value-of select="Header/State"/>
-                                        <xsl:text> </xsl:text>
-                                        <xsl:value-of select="Header/Zip"/>
-                                        </fo:inline>
-                                    </fo:block>
-                                    <fo:block
-                                        font-size="12pt"
-                                        color="#336699"
-                                        text-align="right">
-                                        <xsl:value-of select="Header/Email"/>
-                                    </fo:block>
-                                    <fo:block
-                                        font-size="12pt"
-                                        color="#336699"
-                                        text-align="right">
-                                        <xsl:value-of select="Header/Phone"/>
-                                    </fo:block>
-                                </fo:table-cell>
-                            </fo:table-row>
-                        </fo:table-body>
-                    </fo:table>
-                    <xsl:for-each select="Section">
-                        <xsl:choose>
-                            <xsl:when test="count(./Job) = 0">
-                                <fo:block
-                                    font-size="18pt"
-                                    color="#336699"
-                                    margin-top="20pt"
-                                    margin-bottom="6pt">
-                                    <xsl:value-of select="./Name"/>
-                                </fo:block>
-                                <fo:block
-                                    font-size="11pt"
-                                    color="#000000"
-                                    margin-top="6pt"
-                                    margin-bottom="6pt">
-                                    <xsl:value-of select="./Description"/>
-                                </fo:block>
-                            </xsl:when>                                                      
-                            <xsl:otherwise>
-                                <fo:block 
-                                    font-size="18pt" 
-                                    color="#336699"
-                                    margin-top="20pt"
-                                    margin-bottom="6pt">
-                                    <xsl:value-of select="./Name"/>
-                                </fo:block>
-                                <fo:table>
-                                    <fo:table-column width="4.0in"/>
-                                    <fo:table-column width="2.5in"/>
-                                    <fo:table-body>
-                                        <xsl:for-each select="Job">
-                                            <fo:table-row keep-with-next="always" 
-                                                border-top="solid 1px" border-bottom="solid 1px">
-                                                <fo:table-cell>
-                                                    <fo:block 
-                                                        font-weight="bold"
-                                                        font-size="12pt">
-                                                        <xsl:value-of select="Company"/>
-                                                    </fo:block>
+                                <fo:table-cell width="4.25in" color="#FDFEFE" padding="6mm 6mm 6mm 6mm">
+                                    <fo:table font-size="12pt">
+                                        <fo:table-body>
+                                            <fo:table-row>
+                                                <fo:table-cell text-align="right" font-weight="bold">
+                                                    <fo:block>Phone:</fo:block>
                                                 </fo:table-cell>
-                                                <fo:table-cell>
-                                                    <fo:block 
-                                                        text-align="right"
-                                                        font-weight="bold"
-                                                        font-size="12pt">
-                                                        <xsl:value-of select="Period"/>
-                                                    </fo:block>
-                                                </fo:table-cell>
-                                            </fo:table-row>
-                                            <fo:table-row keep-with-next="always">
-                                                <fo:table-cell number-columns-spanned="2">
-                                                    <fo:block 
-                                                        margin-top="4pt"
-                                                        font-weight="bold"
-                                                        font-style="italic"
-                                                        font-size="11pt">
-                                                        <xsl:value-of select="Title"/>
+                                                <fo:table-cell margin-left="5px">
+                                                    <fo:block>
+                                                        <xsl:value-of select="Header/Phone"/>
                                                     </fo:block>
                                                 </fo:table-cell>
                                             </fo:table-row>
                                             <fo:table-row>
-                                                <fo:table-cell number-columns-spanned="2" padding-top="4pt"
-                                                    padding-bottom="10pt">
-                                                    <fo:block font-size="11pt">
-                                                        <xsl:for-each select="Accomplishments/Accomplishment">
-                                                            <fo:list-block margin-left="5pt" provisional-distance-between-starts="10pt">
-                                                                <fo:list-item margin-bottom="4pt">
-                                                                    <fo:list-item-label end-indent="label-end()">
-                                                                        <fo:block>&#x2022;</fo:block>
-                                                                    </fo:list-item-label>
-                                                                    <fo:list-item-body start-indent="body-start()">
-                                                                        <fo:block>
-                                                                            <xsl:value-of select="."/>
-                                                                        </fo:block>
-                                                                    </fo:list-item-body>
-                                                                </fo:list-item>
-                                                            </fo:list-block>
-                                                        </xsl:for-each>
+                                                <fo:table-cell text-align="right" font-weight="bold">
+                                                    <fo:block>Email: </fo:block>
+                                                </fo:table-cell>
+                                                <fo:table-cell margin-left="5px">
+                                                    <fo:block>
+                                                        <xsl:value-of select="Header/Email"/>
                                                     </fo:block>
                                                 </fo:table-cell>
-                                            </fo:table-row>                                            
-                                        </xsl:for-each>
-                                    </fo:table-body>
-                                </fo:table>
-                            </xsl:otherwise>                          
-                        </xsl:choose>
-                    </xsl:for-each>
+                                            </fo:table-row>
+                                        </fo:table-body>
+                                    </fo:table>
+                                </fo:table-cell>
+                            </fo:table-row>
+                        </fo:table-body>
+                    </fo:table>
                     <fo:table>
                         <fo:table-body>
-                            <xsl:apply-templates select="//Education"/>
-                            <xsl:apply-templates select="//School"/>
+                            <fo:table-row>
+                                <fo:table-cell width="4.25in">
+                                    <fo:block 
+                                        padding-top="10px"
+                                        font-size="20pt" 
+                                        color="#CD6155">
+                                        Relevant Work Experience
+                                    </fo:block>
+                                    <fo:block margin-bottom="8px">
+                                        <xsl:for-each select="Jobs/Job">
+                                            <fo:block font-size="12pt" font-weight="bold" keep-with-next="always">
+                                                <xsl:value-of select="Title"/>
+                                            </fo:block>
+                                            <fo:block font-size="10pt" font-style="italic" color="#000000" margin-bottom="10pt">
+                                                <fo:inline>
+                                                    <xsl:value-of select="Company"/> - <xsl:value-of select="Period"/>
+                                                </fo:inline>
+                                            </fo:block>
+                                            <fo:block font-size="10pt">
+                                                <xsl:for-each select="Accomplishments/Accomplishment">
+                                                    <fo:list-block margin-left="5pt" provisional-distance-between-starts="10pt">
+                                                        <fo:list-item margin-bottom="4pt">
+                                                            <fo:list-item-label end-indent="label-end()">
+                                                                <fo:block>&#x2022;</fo:block>
+                                                            </fo:list-item-label>
+                                                            <fo:list-item-body start-indent="body-start()">
+                                                                <fo:block>
+                                                                    <xsl:value-of select="."/>
+                                                                </fo:block>
+                                                            </fo:list-item-body>
+                                                        </fo:list-item>
+                                                    </fo:list-block>
+                                                </xsl:for-each>
+                                            </fo:block>                                    
+                                        </xsl:for-each>
+                                    </fo:block>
+                                    <fo:block 
+                                        padding-top="10px"
+                                        font-size="20pt" 
+                                        color="#CD6155">
+                                        Additional Work Experience
+                                    </fo:block>
+                                    <fo:block>
+                                        <xsl:for-each select="AdditionalJobs/Job">
+                                            <fo:block font-size="12pt" font-weight="bold" keep-with-next="always">
+                                                <xsl:value-of select="Title"/>
+                                            </fo:block>
+                                            <fo:block font-size="10pt" font-style="italic" color="#000000" margin-bottom="10pt">
+                                                <fo:inline>
+                                                    <xsl:value-of select="Company"/> - <xsl:value-of select="Period"/>
+                                                </fo:inline>
+                                            </fo:block>
+                                        </xsl:for-each>
+                                    </fo:block>
+                                </fo:table-cell>
+                                <fo:table-cell width="0.25in">
+                                    <fo:block/>
+                                </fo:table-cell>
+                                <!-- ================================================================ -->
+                                <!-- Right Column                                                     -->
+                                <!-- ================================================================ -->
+                                <fo:table-cell padding="10px" background-color="#F2F3F4" width="3.0in">
+                                    <fo:block
+                                        font-size="20pt" 
+                                        color="#CD6155">
+                                        Summary
+                                    </fo:block>
+                                    <fo:block font-size="10pt">
+                                        <xsl:value-of select="Summary"/>
+                                    </fo:block>
+                                    <fo:block margin-top="20px"
+                                        background-color="#CD6155"
+                                        font-size="20pt" 
+                                        color="#FFFFFF">
+                                        <xsl:value-of select="Clearance"/>
+                                    </fo:block>
+                                    <fo:block margin-top="20px"
+                                        font-size="20pt" 
+                                        color="#CD6155">
+                                        Skills
+                                    </fo:block>
+                                    <fo:block
+                                        font-size="14pt" 
+                                        color="#000000">
+                                        Advanced Skills
+                                    </fo:block>
+                                    <xsl:for-each select="Skills/Advanced/Skill">
+                                        <fo:list-block margin-left="5pt" provisional-distance-between-starts="10pt">
+                                            <fo:list-item margin-bottom="4pt">
+                                                <fo:list-item-label end-indent="label-end()">
+                                                    <fo:block>&#x2022;</fo:block>
+                                                </fo:list-item-label>
+                                                <fo:list-item-body start-indent="body-start()">
+                                                    <fo:block font-size="10pt">
+                                                        <xsl:value-of select="."/>
+                                                    </fo:block>
+                                                </fo:list-item-body>
+                                            </fo:list-item>
+                                        </fo:list-block>
+                                    </xsl:for-each>
+                                    <fo:block margin-top="10px"
+                                        font-size="14pt" 
+                                        color="#000000">
+                                        Intermediate Skills
+                                    </fo:block>
+                                    <xsl:for-each select="Skills/Intermediate/Skill">
+                                        <fo:list-block margin-left="5pt" provisional-distance-between-starts="10pt">
+                                            <fo:list-item margin-bottom="4pt">
+                                                <fo:list-item-label end-indent="label-end()">
+                                                    <fo:block>&#x2022;</fo:block>
+                                                </fo:list-item-label>
+                                                <fo:list-item-body start-indent="body-start()">
+                                                    <fo:block font-size="10pt">
+                                                        <xsl:value-of select="."/>
+                                                    </fo:block>
+                                                </fo:list-item-body>
+                                            </fo:list-item>
+                                        </fo:list-block>
+                                    </xsl:for-each>
+                                    <fo:block margin-top="10px"
+                                        font-size="14pt" 
+                                        color="#000000">
+                                        Beginner Skills
+                                    </fo:block>
+                                    <xsl:for-each select="Skills/Beginner/Skill">
+                                        <fo:list-block margin-left="5pt" provisional-distance-between-starts="10pt">
+                                            <fo:list-item margin-bottom="4pt">
+                                                <fo:list-item-label end-indent="label-end()">
+                                                    <fo:block>&#x2022;</fo:block>
+                                                </fo:list-item-label>
+                                                <fo:list-item-body start-indent="body-start()">
+                                                    <fo:block font-size="10pt">
+                                                        <xsl:value-of select="."/>
+                                                    </fo:block>
+                                                </fo:list-item-body>
+                                            </fo:list-item>
+                                        </fo:list-block>
+                                    </xsl:for-each>
+                                    <fo:block margin-top="20px"
+                                        font-size="20pt" 
+                                        color="#CD6155">
+                                        Recent Courses
+                                    </fo:block>
+                                    <xsl:for-each select="RecentCourses/Course">
+                                        <fo:block font-size="10pt" font-style="italic">
+                                            <xsl:value-of select="./Date"/>
+                                        </fo:block>
+                                        <fo:block font-size="10pt" font-weight="bold">
+                                            <xsl:value-of select="./Name"/>
+                                        </fo:block>
+                                        <fo:block font-size="10pt" margin-bottom="20px">
+                                            <xsl:value-of select="./Details"/>
+                                        </fo:block>
+                                    </xsl:for-each>
+                                    <fo:block margin-top="20px"
+                                        font-size="20pt" 
+                                        color="#CD6155">
+                                        Education
+                                    </fo:block>
+                                    <xsl:for-each select="Education/School">
+                                        <fo:block font-size="10pt" font-style="italic">
+                                            <xsl:value-of select="./Period"/>
+                                        </fo:block>
+                                        <fo:block font-size="10pt" font-weight="bold">
+                                            <xsl:value-of select="./Name"/>
+                                        </fo:block>
+                                        <fo:block font-size="10pt" margin-bottom="20px">
+                                            <xsl:value-of select="./Major"/>
+                                        </fo:block>
+                                    </xsl:for-each>
+                                </fo:table-cell>                                                         
+                            </fo:table-row>
                         </fo:table-body>
                     </fo:table>
                 </fo:flow>
@@ -184,42 +251,5 @@
         </fo:root>
     </xsl:template>
 
-    <xsl:template match="//Education">
-        <fo:table-row>
-            <fo:table-cell padding-bottom="10pt">
-                <fo:block 
-                    font-size="20pt" 
-                    color="#336699">
-                    Education / Certifcation
-                </fo:block>
-            </fo:table-cell>
-        </fo:table-row>
-    </xsl:template>
-     <xsl:template match="//School">
-        <fo:table-row keep-with-next="always">
-            <fo:table-cell>
-                <fo:block 
-                    font-weight="bold"
-                    font-size="12pt">
-                    <xsl:value-of select="Name"/>
-                </fo:block>
-            </fo:table-cell>
-            <fo:table-cell>
-                <fo:block 
-                    text-align="right"
-                    font-weight="bold"
-                    font-size="12pt">
-                    <xsl:value-of select="Period"/>
-                </fo:block>
-            </fo:table-cell>
-        </fo:table-row>     
-        <fo:table-row>
-            <fo:table-cell number-columns-spanned="2" padding-bottom="10pt">
-                <fo:block font-size="12pt">
-                    <xsl:value-of select="Major"/>
-                </fo:block>
-            </fo:table-cell>
-        </fo:table-row>           
-    </xsl:template>
 
 </xsl:stylesheet>

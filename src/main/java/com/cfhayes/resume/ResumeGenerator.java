@@ -1,4 +1,4 @@
-package com.cfhayes.examples.fop;
+package com.cfhayes.resume;
 
 import org.apache.fop.apps.Fop;
 import org.apache.fop.apps.FopFactory;

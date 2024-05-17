@@ -3,65 +3,113 @@
     <Header>
         <Name>Charles F. Hayes</Name>
         <Title>Senior Software Engineer</Title>
-        <Address>685 Wuthering Heights Drive</Address>
-        <City>Colorado Springs</City>
-        <State>CO</State>
-        <Zip>80921</Zip>
+        <Email>cfhayes16@gmail.com</Email>
         <Phone>303.929.8652</Phone>
-        <Email>charles.hayes@cfhayes.com</Email>
+        <Github>github.com/ch88251</Github>
     </Header>
     
-    <Section>
-        <Name>Objective</Name>
-        <Description>
-        With over 20 years in software engineering, I bring extensive expertise in enterprise Java, Spring, 
-        messaging, and web services. My proficiency extends beyond back-end development, encompassing a broad 
-        spectrum of languages such as Python and C++. Eager to embrace new challenges, I've recently delved 
-        into modern front-end technologies, positioning myself as a versatile full-stack developer. My 
-        commitment to continuous learning and a proven track record of delivering successful projects 
-        underscore my adaptability and resourcefulness in navigating diverse tech stacks. Ready to contribute 
-        dynamic solutions and drive innovation in any full-stack software engineering role.
-        </Description>
-    </Section>
-    
-    <Section>
-        <Name>Technical Skills</Name>
-        <Description>
-        Java, JUnit, Maven, Gradle, Python, Pytest, C++, CMake, GoogleTest, GoogleMock, 
-        Javascript, Typescript, Next.js, React, Angular, Docker, Docker Compose, Kubernetes, 
-        Helm, Ansible, Spring, Spring Boot, Quarkus, Microservices, REST, JSON, Jenkins, 
-        HTML5, CSS3, Tailwind CSS, Bootstrap, Git, Github, Gitlab, Bitbucket, Jira, Confluence
-        </Description>
-    </Section>
+    <Summary>
+    With over 20 years in software engineering, I possess comprehensive expertise across full-stack development, 
+    infrastructure automation, and test automation. My background includes extensive work in enterprise Java 
+    development and asynchronous messaging systems with JMS. I helped clients modernize their legacy applications 
+    to more modern software architectures within agile frameworks. Committed to continuous learning, I have a proven 
+    track record of adapting to diverse tech stacks and delivering successful projects that meet rigorous demands.
+    </Summary>
 
-    <Section>
+    <Skills>
+        <Advanced>
+            <Skill>Java, JEE</Skill>
+            <Skill>Hibernate, JPA</Skill>
+            <Skill>SOAP, REST</Skill>
+            <Skill>Microservices</Skill>
+            <Skill>Kubernetes, Helm</Skill>
+            <Skill>Docker, Docker Compose</Skill>
+            <Skill>Jenkins</Skill>
+            <Skill>HTML, CSS, Javascript, Typescript</Skill>
+        </Advanced>
+        <Intermediate>
+            <Skill>Python</Skill>
+            <Skill>Spring, Spring Boot</Skill>
+            <Skill>Quarkus</Skill>
+            <Skill>React</Skill>
+            <Skill>Ansible</Skill>
+        </Intermediate>
+        <Beginner>
+            <Skill>C++, CMake</Skill>
+            <Skill>GoogleTest, GoogleMock</Skill>
+            <Skill>PostgreSQL</Skill>
+            <Skill>Oracle</Skill>
+            <Skill>MySQL</Skill>
+            <Skill>MongoDB</Skill>
+            <Skill>Next.js</Skill>
+            <Skill>Tailwind CSS</Skill>
+        </Beginner>
+    </Skills>
+
+    <Clearance>Secret Clearance</Clearance>
+
+    <RecentCourses>
+        <Course>
+            <Date>April, 2024</Date>
+            <Name>Elastic Engineer Training</Name>
+            <Details>6 hours, classroom</Details>
+        </Course>
+        <Course>
+            <Date>April, 2020</Date>
+            <Name>Building Scalable Java Microservices with Spring Boot and Spring Cloud</Name>
+            <Details>12 hours, Coursera, Grade: 99%</Details>
+        </Course>
+        <Course>
+            <Date>November, 2018</Date>
+            <Name>Continuous Delivery and DevOps</Name>
+            <Details>8 hours, Coursera, Grade: 85%</Details>
+        </Course>
+    </RecentCourses>
+
+    <Certifications>
+        <Certification>
+            <Name></Name>
+            <Date></Date>
+        </Certification>
+    </Certifications>
+
+    <Jobs>
         <Name>Professional Experience</Name>
         <Job>
             <Company>Frontier Technology</Company>
-            <Title>Advisory Software Developer</Title>
+            <Title>Senior Full-Stack Developer</Title>
             <Period>July 2023 - Present</Period>
             <Accomplishments>
                 <Accomplishment>
-                Created an ansible playbook to automate the installation and configuration of Neo4j.
+                Developed ansible playbooks for automating the installation and configuration of critical infrastructure.
                 </Accomplishment>
                 <Accomplishment>
-                Created an ansible playbook to automate the installation and configuration of a cyber attack analytics web application.
+                Implemented a new software capability that allows cyber security analysts to search and 
+                preserve PCAP files for future analysis.
                 </Accomplishment>
                 <Accomplishment>
-                Created an ansible playbook to automate the installation and configuration of a disk cleaner application.
+                Configured an ILM policy in elastic search to resolve a critical defect where packetbeat 
+                indexes were filling up and not rolling over properly.
+                </Accomplishment>
+                <Accomplishment>
+                Created cypress tests for end-to-end validation, significantly enhancing our 
+                software’s quality assurance by closing a critical testing gap
                 </Accomplishment>
             </Accomplishments>
         </Job>
         <Job>
-            <Company>Boeing</Company>
-            <Title>Software Engineer in Test</Title>
+            <Company>Actalent / Boeing</Company>
+            <Title>Senior Software Engineer in Test</Title>
             <Period>July 2020 - July 2023</Period>
             <Accomplishments>
                 <Accomplishment>
-                Integration, testing and troubleshooting of microservices in a Kubernetes environment.
+                Proficient in configuring and deploying containerized applications within Kubernetes clusters, 
+                optimizing resource utilization and ensuring seamless operation.
                 </Accomplishment>
                 <Accomplishment>
-                Created tests with Python and Pytest to test the functionality of the microservices.
+                Demonstrated expertise in managing essential Kubernetes resources using manifest files for creating 
+                pods, services, deployments, secrets, configmaps, persistent volumes, persistent volume claims, 
+                facilitating efficient deployment and configuration.
                 </Accomplishment>
                 <Accomplishment>
                 Developed a test coverage dashboard to help the team understand the test coverage of the test automation.
@@ -69,7 +117,90 @@
             </Accomplishments>
         </Job>        
         <Job>
-            <Company>TEKsystems Global Services</Company>
+            <Company>ITEC</Company>
+            <Title>Senior Software Engineer</Title>
+            <Period>June 2017 - January 2018</Period>
+            <Accomplishments>
+                <Accomplishment>
+                Worked closely with systems engineers, integrators, testers and customers to design a 
+                set of standards and guidelines for building CI/CD pipelines.
+                </Accomplishment>
+                <Accomplishment>
+                Learned the Phillip Kruechten's 4+1 architectural view model and applied it to my 
+                software design and documentation.
+                </Accomplishment>
+            </Accomplishments>
+        </Job>
+        <Job>
+            <Company>Colorado Interactive</Company>
+            <Title>Lead Software Engineer</Title>
+            <Period>Auguust 2014 - April 2016</Period>
+            <Accomplishments>
+                <Accomplishment>
+                Played a pivotal role in mentoring junior engineers, fostering a culture of collaboration and 
+                continuous learning through code reviews, pair programming sessions, and knowledge-sharing 
+                initiatives. This contributed to enhanced team productivity and skill development, ensuring the 
+                growth and success of the engineering team.
+                </Accomplishment>
+                <Accomplishment>
+                Redesigned the web application for registering businesses in Colorado by streamlining 
+                the process for registering a business with Colorado Department of Labor and Employment, 
+                Department of Revenue and Secretary of State. Previously business owners had to fill out 
+                forms in two different web applications.
+                </Accomplishment>
+                <Accomplishment>
+                Designed and implemented a flexible architecture that empowered each court office to access and manage 
+                its distinct data, while dynamically adapting the user interface to reflect the court's unique branding 
+                elements. This initiative resulted in a cost-effective solution that unified the user experience across 
+                multiple court entities while preserving individualized branding identities.
+                </Accomplishment>
+            </Accomplishments>
+        </Job>
+        <Job>
+            <Company>TEKsystems</Company>
+            <Title>Senior Software Engineer</Title>
+            <Period>February 2013 - December 2013</Period>
+            <Accomplishments>
+                <Accomplishment>
+                Developed a robust software solution enabling Charles Schwab advisors to generate 
+                comprehensive PDF reports for clients. These reports showcase current and proposed 
+                investment portfolios, empowering clients to make informed decisions about their 
+                financial investments.
+                </Accomplishment>
+                <Accomplishment>
+                Collaborated with cross-functional teams to implement an enterprise logging initiative. 
+                This initiative aggregated logs from diverse applications and established a centralized 
+                log viewer using Splunk. The centralized view allowed engineers and support teams to 
+                efficiently troubleshoot issues and swiftly identify root causes by providing real-time 
+                insights into events across multiple servers and applications.
+                </Accomplishment>
+            </Accomplishments>
+        </Job>
+        <Job>
+            <Company>TEKsystems / McKesson</Company>
+            <Title>Senior Software Engineer</Title>
+            <Period>January 2009 to February 2013</Period>
+            <Accomplishments>
+                <Accomplishment>
+                Developed new web service contracts (WSDL) and designed message payloads and 
+                transformations for McKesson's Healthcare Management System.
+                </Accomplishment>
+                <Accomplishment>
+                Played a pivotal role in the design and implementation of a Service-Oriented Architecture 
+                (SOA), leveraging web services to enhance interoperability and collaboration across healthcare entities.
+                </Accomplishment>
+                <Accomplishment>
+                Collaborated with cross-functional teams to interpret and implement regulatory requirements, 
+                guaranteeing that the healthcare integration application met the necessary standards and regulations 
+                set forth by the ARRA initiative.
+                </Accomplishment>
+            </Accomplishments>
+        </Job>
+    </Jobs>
+
+    <AdditionalJobs>
+        <Job>
+            <Company>TEKsystems</Company>
             <Title>Lead Software Engineer in Test</Title>
             <Period>September 2019 - July 2020</Period>
             <Accomplishments>
@@ -110,89 +241,6 @@
                 </Accomplishment>
             </Accomplishments>
         </Job>
-        <Job>
-            <Company>ITEC</Company>
-            <Title>Software Engineer (Contracted at Raytheon)</Title>
-            <Period>June 2017 - January 2018</Period>
-            <Accomplishments>
-                <Accomplishment>
-                Worked closely with systems engineers, integrators, testers and customers to design a 
-                set of standards and guidelines for building CI/CD pipelines.
-                </Accomplishment>
-                <Accomplishment>
-                Learned the Phillip Kruechten's 4+1 architectural view model and applied it to my 
-                software design and documentation.
-                </Accomplishment>
-            </Accomplishments>
-        </Job>
-        <Job>
-            <Company>Colorado Interactive</Company>
-            <Title>Lead Software Engineer</Title>
-            <Period>Auguust 2014 - April 2016</Period>
-            <Accomplishments>
-                <Accomplishment>
-                Redesigned the web application for registering businesses in Colorado by streamlining 
-                the process for registering a business with Colorado Department of Labor and Employment, 
-                Department of Revenue and Secretary of State. Previously business owners had to fill out 
-                forms in two different web applications.
-                </Accomplishment>
-                <Accomplishment>
-                Developed new software enhancements and bug fixes for web applications used by the 
-                Colorado state government.
-                </Accomplishment>
-                <Accomplishment>
-                Mentored junior engineers through code reviews, pair programming, and knowledge sharing 
-                sessions, enhancing team productivity and skills development.
-                </Accomplishment>
-            </Accomplishments>
-        </Job>
-        <Job>
-            <Company>TEKsystems</Company>
-            <Title>Senior Software Engineer (Contracted at Charles Schwab)</Title>
-            <Period>February 2013 - December 2013</Period>
-            <Accomplishments>
-                <Accomplishment>
-                Developed a robust software solution enabling Charles Schwab advisors to generate 
-                comprehensive PDF reports for clients. These reports showcase current and proposed 
-                investment portfolios, empowering clients to make informed decisions about their 
-                financial investments.
-                </Accomplishment>
-                <Accomplishment>
-                Collaborated with cross-functional teams to implement an enterprise logging initiative. 
-                This initiative aggregated logs from diverse applications and established a centralized 
-                log viewer using Splunk. The centralized view allowed engineers and support teams to 
-                efficiently troubleshoot issues and swiftly identify root causes by providing real-time 
-                insights into events across multiple servers and applications.
-                </Accomplishment>
-            </Accomplishments>
-        </Job>
-        <Job>
-            <Company>McKesson Corporation</Company>
-            <Title>Senior Software Engineer</Title>
-            <Period>May 2010 to February 2013</Period>
-            <Accomplishments>
-                <Accomplishment>
-                Developed new web service contracts (WSDL) and designed message payloads and 
-                transformations for McKesson's Healthcare Management System.
-                </Accomplishment>
-                <Accomplishment>
-                Modernized healthcare management software to be compliant with the new ARRA 
-                (American Rediscovery and Reinvestment Act) initiative.
-                </Accomplishment>
-            </Accomplishments>
-        </Job>
-        <Job>
-            <Company>TEKsystems</Company>
-            <Title>JUnit Developer (Contracted at Mckesson)</Title>
-            <Period>January 2009 to May 2010</Period>
-            <Accomplishments>
-                <Accomplishment>
-                Successfully implemented a data-driven integration testing framework that can 
-                dynamically instantiate appropriate test objects based on the information in SOAP 
-                headers. This was for testing message processing and routing in a messaging system (JMS).
-                </Accomplishment>
-            </Accomplishments>
-        </Job>        
         <Job>
             <Company>NetPolarity</Company>
             <Title>Java Engineer (Contracted at Charles Schwab)</Title>
@@ -249,21 +297,18 @@
                 </Accomplishment>
             </Accomplishments>
         </Job>      
-    </Section>
-
-    <Section>
-        <Education>
-            <School>
-                <Name>Oracle Certified Java Programmer</Name>
-                <Period>2006</Period>
-                <Major></Major>
-            </School>
-            <School>
-                <Name>Regis University</Name>
-                <Period>2000 - 2001</Period>
-                <Major>Completed 27 semester hours in Computer Science as funding permitted.</Major>
-            </School>
-        </Education>    
-    </Section>
+    </AdditionalJobs>
+    <Education>
+        <School>
+            <Name>Regis University</Name>
+            <Period>2000 - 2002</Period>
+            <Major>Completed 27 semester hours in Computer Science as funding permitted.</Major>
+        </School>
+        <School>
+            <Name>Spartan College of Aeronautics and Engineering</Name>
+            <Period>1990 - 1992</Period>
+            <Major>Avionics, 3.0 GPA, Obtained FCC License</Major>
+        </School>
+    </Education>    
     
 </Resume>
