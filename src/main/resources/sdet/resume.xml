@@ -8,42 +8,42 @@
         <Github>github.com/ch88251</Github>
     </Header>
     
-    <Summary>
+    <!-- <Summary>
     With over 20 years experience in software engineering, I possess comprehensive expertise across 
     full-stack development, platform, and DevOps. My background includes extensive work in large-scale 
     enterprise software development using Java and related technologies. Committed to continuous learning, 
     I have a proven track record of adapting to diverse tech stacks and delivering successful projects 
     that meet rigorous demands.
+    </Summary> -->
+    <Summary>
+    I am a Senior Software Engineer in Test with over 15 years of experience in software development and
+    over 6 years of experience in test automation. I have a strong background in Java, Python, and 
+    JavaScript, and have worked on a variety of projects ranging from web applications to microservices.
+    I'm an excellent problem solver and have a passion for software quality, automation and continuous delivery.
     </Summary>
 
     <Skills>
-        <Advanced>
-            <Skill>Java, JEE</Skill>
-            <Skill>Hibernate, JPA</Skill>
+        <Core>
+            <Skill>Java, Javascript, Python</Skill>
+            <Skill>Hibernate, JPA, SQL</Skill>
             <Skill>SOAP, REST</Skill>
             <Skill>Microservices</Skill>
             <Skill>Kubernetes, Helm</Skill>
             <Skill>Docker, Docker Compose</Skill>
             <Skill>Jenkins</Skill>
-            <Skill>HTML, CSS, Javascript, Typescript</Skill>
-        </Advanced>
-        <Intermediate>
-            <Skill>Python</Skill>
+            <Skill>Selenium, Cucumber, Cypress</Skill>
+            <Skill>JUnit, TestNG, Pytest</Skill>
+        </Core>
+        <Additional>
+            <Skill>AWS, GCP, Azure</Skill>
             <Skill>Spring, Spring Boot</Skill>
-            <Skill>Quarkus</Skill>
             <Skill>React</Skill>
             <Skill>Ansible</Skill>
-        </Intermediate>
-        <Beginner>
             <Skill>C++, CMake</Skill>
             <Skill>GoogleTest, GoogleMock</Skill>
-            <Skill>PostgreSQL</Skill>
-            <Skill>Oracle</Skill>
-            <Skill>MySQL</Skill>
+            <Skill>PostgreSQL, MySQL, Oracle</Skill>
             <Skill>MongoDB</Skill>
-            <Skill>Next.js</Skill>
-            <Skill>Tailwind CSS</Skill>
-        </Beginner>
+        </Additional>
     </Skills>
 
     <Clearance>Secret Clearance</Clearance>
@@ -93,48 +93,140 @@
                 </Accomplishment>
                 <Accomplishment>
                 Created cypress tests for end-to-end validation, significantly enhancing our 
-                software’s quality assurance by closing a critical testing gap
+                software's quality assurance by closing a critical testing gap
                 </Accomplishment>
             </Accomplishments>
         </Job>
         <Job>
             <Company>Actalent / Boeing</Company>
-            <Title>Senior Software Engineer in Test</Title>
+            <Title>Senior Integration and Test Engineer</Title>
             <Period>July 2020 - July 2023</Period>
             <Accomplishments>
                 <Accomplishment>
-                Proficient in configuring and deploying containerized applications within Kubernetes clusters, 
-                optimizing resource utilization and ensuring seamless operation.
+                Developed a test automation framework using Python, and Pytest to automate the testing of software used in
+                military satellite communications. Integrated the automation framework with Jenkins to enable continuous
+                integration and continuous testing.
                 </Accomplishment>
                 <Accomplishment>
-                Demonstrated expertise in managing essential Kubernetes resources using manifest files for creating 
-                pods, services, deployments, secrets, configmaps, persistent volumes, persistent volume claims, 
-                facilitating efficient deployment and configuration.
+                Integrated our software components with the Kubernetes platform to enable the deployment of our software
+                in a containerized environment. This initiative significantly reduced the time required to deploy our software
+                and enabled us to scale our software to meet the demands of our customers.
                 </Accomplishment>
                 <Accomplishment>
-                Developed a test coverage dashboard to help the team understand the test coverage of the test automation.
+                Collaborate with team members to promptly triage test failures with precision and maintain the health of the 
+                CI/CD pipeline.
                 </Accomplishment>
             </Accomplishments>
-        </Job>        
+        </Job>       
         <Job>
-            <Company>ITEC</Company>
-            <Title>Senior Software Engineer</Title>
-            <Period>June 2017 - January 2018</Period>
+            <Company>TEKsystems</Company>
+            <Title>Lead Software Engineer in Test</Title>
+            <Period>September 2019 - July 2020</Period>
             <Accomplishments>
                 <Accomplishment>
-                Worked closely with systems engineers, integrators, testers and customers to design a 
-                set of standards and guidelines for building CI/CD pipelines.
+                Consulted with various clients in the United States to advise and mentor technical
+                staff on continuous delivery and continuous testing practices. Provided hands-on guidance 
+                in developing effective test automation frameworks.
                 </Accomplishment>
                 <Accomplishment>
-                Learned the Phillip Kruechten's 4+1 architectural view model and applied it to my 
-                software design and documentation.
+                Provided weekly demonstrations of our test automation and presented reports for requirement
+                coverage and testing progress.
+                </Accomplishment>
+                <Accomplishment>
+                Prototyped a test automation framework using Serenity BDD, javascript and cucumber. The team I 
+                demonstrated this to was impressed with the ease of use and the ability to rapidly develop
+                test automation scripts that are very easy to read and maintain. The framework was adopted by
+                the team and was a big success.
+                </Accomplishment>
+                <Accomplishment>
+                Integrated the test automation framework with Azure DevOps to enable continuous testing. This
+                initiative significantly reduced the time required to test our software and enabled us to deliver
+                high-quality software to our customers.
                 </Accomplishment>
             </Accomplishments>
-        </Job>
+        </Job>       
         <Job>
+            <Company>T-Mobile</Company>
+            <Title>Senior Software Engineer in Test</Title>
+            <Period>June 2018 - September 2019</Period>
+            <Accomplishments>
+                <Accomplishment>
+                Designed and developed a robust test automation framework that uses Gradle, Java 11, 
+                JUnit5, Selenide and Allure. This framework was instrumental in ensuring the reliability 
+                and quality of our Layer3 TV STB (Set Top Box) product's user interface.
+                </Accomplishment>
+                <Accomplishment>
+                Implemented unit tests in our product code base using Jest to enhance code quality and 
+                identify potential issues early in the development cycle.
+                </Accomplishment>
+                <Accomplishment>
+                Championed test-driven development (TDD) practices within the organization by delivering
+                a highly informative "Lunch and Learn" session. Shared insights on the benefits of TDD and
+                practical strategies for its implementation.
+                </Accomplishment>
+            </Accomplishments>
+        </Job>    
+        <Job>
+            <Company>The Judge Group (contract)</Company>
+            <Title>Senior Software Engineer in Test</Title>
+            <Period>January 2018 - July 2018</Period>
+            <Accomplishments>
+                <Accomplishment>
+                Designed and developed a robust test automation framework that uses Gradle, Java 11, 
+                JUnit5, Selenide and Allure. This framework was instrumental in ensuring the reliability 
+                and quality of our Layer3 TV STB (Set Top Box) product's user interface.
+                </Accomplishment>
+                <Accomplishment>
+                Implemented unit tests in our product code base using Jest to enhance code quality and 
+                identify potential issues early in the development cycle.
+                </Accomplishment>
+                <Accomplishment>
+                Championed test-driven development (TDD) practices within the organization by delivering
+                a highly informative "Lunch and Learn" session. Shared insights on the benefits of TDD and
+                practical strategies for its implementation.
+                </Accomplishment>
+            </Accomplishments>
+        </Job>                 
+        <Job>
+            <Company>ITEC (contract)</Company>
+            <Title>Senior Software Engineer</Title>
+            <Period>June 2017 - December 2017</Period>
+            <Accomplishments>
+                <Accomplishment>
+                Designed and developed a robust test automation framework that uses Gradle, Java 11, 
+                JUnit5, Selenide and Allure. This framework was instrumental in ensuring the reliability 
+                and quality of our Layer3 TV STB (Set Top Box) product's user interface.
+                </Accomplishment>
+                <Accomplishment>
+                Implemented unit tests in our product code base using Jest to enhance code quality and 
+                identify potential issues early in the development cycle.
+                </Accomplishment>
+                <Accomplishment>
+                Championed test-driven development (TDD) practices within the organization by delivering
+                a highly informative "Lunch and Learn" session. Shared insights on the benefits of TDD and
+                practical strategies for its implementation.
+                </Accomplishment>
+            </Accomplishments>
+        </Job>          
+        <Job>
+            <Company>TEKsystems (contract)</Company>
+            <Title>Senior Software Engineer in Test</Title>
+            <Period>June 2017 - December 2017</Period>
+            <Accomplishments>
+                <Accomplishment>
+                Designed and implemented a robust test automation framework from scratch for UI testing, 
+                significantly reducing manual testing efforts and improving test coverage.
+                </Accomplishment>
+                <Accomplishment>
+                Developed automated test scripts for API endpoints using Scala and Gatling, leading to an 
+                increase in efficiency and allowing for faster regression testing cycles.
+                </Accomplishment>
+            </Accomplishments>
+        </Job>                 
+        <!-- <Job>
             <Company>Colorado Interactive</Company>
             <Title>Lead Software Engineer</Title>
-            <Period>Auguust 2014 - April 2016</Period>
+            <Period>August 2014 - April 2016</Period>
             <Accomplishments>
                 <Accomplishment>
                 Played a pivotal role in mentoring junior engineers, fostering a culture of collaboration and 
@@ -195,109 +287,9 @@
                 set forth by the ARRA initiative.
                 </Accomplishment>
             </Accomplishments>
-        </Job>
+        </Job> -->
     </Jobs>
 
-    <AdditionalJobs>
-        <Job>
-            <Company>TEKsystems</Company>
-            <Title>Lead Software Engineer in Test</Title>
-            <Period>September 2019 - July 2020</Period>
-            <Accomplishments>
-                <Accomplishment>
-                Consulted with various clients in the United States to advise and mentor technical 
-                staff on continuous delivery and continuous testing practices. Provided hand-on labs 
-                for developing effective test automation frameworks.
-                </Accomplishment>
-                <Accomplishment>
-                Provided weekly demonstrations of our test automation and presented reports 
-                for requirement coverage and testing progress.
-                </Accomplishment>
-                <Accomplishment>
-                Demonstrated the successful execution of our automated tests in an Azure 
-                DevOps pipeline.
-                </Accomplishment>
-            </Accomplishments>
-        </Job>
-        <Job>
-            <Company>T-Mobile Inc</Company>
-            <Title>Senior Software Engineer in Test</Title>
-            <Period>July 2018 - September 2019</Period>
-            <Accomplishments>
-                <Accomplishment>
-                Designed and developed a robust test automation framework that uses Gradle, Java 11, 
-                JUnit5, Selenide and Allure. This framework was instrumental in ensuring the reliability 
-                and quality of our Layer3 TV STB (Set Top Box) product's user interface.
-                </Accomplishment>
-                <Accomplishment>
-                Implemented unit tests using Jest to enhance code quality and identify potential issues 
-                early in the development cycle. This proactive approach significantly contributed to a 
-                reduction in production defects.
-                </Accomplishment>
-                <Accomplishment>
-                Championed test-driven development (TDD) practices within the organization by delivering 
-                a highly informative "Lunch and Learn" session. Shared insights on the benefits of TDD and 
-                practical strategies for its implementation.
-                </Accomplishment>
-            </Accomplishments>
-        </Job>
-        <Job>
-            <Company>NetPolarity</Company>
-            <Title>Java Engineer (Contracted at Charles Schwab)</Title>
-            <Period>January 2008 - December 2008</Period>
-            <Accomplishments>
-                <Accomplishment>
-                Developed new web services for aggregating gain/loss data for Charles Schwab's
-                PortfolioCenter product.
-                </Accomplishment>
-                <Accomplishment>
-                Developed automated API tests using SoapUI.
-                </Accomplishment>
-                <Accomplishment>
-                Extended the capabilities of SoapUI by developing custom plugins in Java.
-                </Accomplishment>
-            </Accomplishments>
-        </Job>
-        <Job>
-            <Company>Electronic Data Systems</Company>
-            <Title>Software Engineer</Title>
-            <Period>April 2005 - August 2007</Period>
-            <Accomplishments>
-                <Accomplishment>
-                Successfully helped a team build a Message Oriented Middleware solution for a client. 
-                Replaced an old CORBA architecture with a more modern JMS architecture.
-                </Accomplishment>
-                <Accomplishment>
-                Implemented security in a single sign-on application. Configured Weblogic with 2-way SSL, 
-                created Java keystores, and configured time synchronization and security policies in 
-                Weblogic.
-                </Accomplishment>
-            </Accomplishments>
-        </Job>
-        <Job>
-            <Company>Sun Microsystems</Company>
-            <Title>Software Engineer</Title>
-            <Period>January 2000 - April 2005</Period>
-            <Accomplishments>
-                <Accomplishment>
-                Developed "Fact" classes and parsers for a rule engine used to perform 
-                predictive analytics.
-                </Accomplishment>
-                <Accomplishment>
-                Learned a new programming language called KPL (Knowledge Predicate Language) 
-                which I used in the rule engine for determining risk outcomes.
-                </Accomplishment>
-                <Accomplishment>
-                Responsible for requirements gathering, OOAD, development, testing, and deployment 
-                of a 3-tier web application.
-                </Accomplishment>
-                <Accomplishment>
-                Implemented software design patterns in a web application that empowered the 
-                customer to generate a wide variety of report types.
-                </Accomplishment>
-            </Accomplishments>
-        </Job>      
-    </AdditionalJobs>
     <Education>
         <School>
             <Name>Regis University</Name>

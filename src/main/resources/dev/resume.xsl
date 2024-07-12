@@ -4,8 +4,6 @@
                 xmlns:fo="http://www.w3.org/1999/XSL/Format"
                 xmlns:lgcy="urn:tarhely.gov.hu:1.0:legacy">
     
-    <xsl:import href="Styles.xsl"/>
-    
     <xsl:output method="xml" version="1.0" omit-xml-declaration="no" indent="yes"/>
     <xsl:param name="versionParam" select="'1.0'"/> 
 
@@ -108,12 +106,12 @@
                                             </fo:block>                                    
                                         </xsl:for-each>
                                     </fo:block>
-                                    <fo:block 
+                                    <!-- <fo:block 
                                         padding-top="10px"
                                         font-size="20pt" 
                                         color="#CD6155">
                                         Additional Work Experience
-                                    </fo:block>
+                                    </fo:block> -->
                                     <fo:block>
                                         <xsl:for-each select="AdditionalJobs/Job">
                                             <fo:block font-size="12pt" font-weight="bold" keep-with-next="always">
@@ -158,9 +156,9 @@
                                     <fo:block
                                         font-size="14pt" 
                                         color="#000000">
-                                        Advanced Skills
+                                        Core Skills
                                     </fo:block>
-                                    <xsl:for-each select="Skills/Advanced/Skill">
+                                    <xsl:for-each select="Skills/Core/Skill">
                                         <fo:list-block margin-left="5pt" provisional-distance-between-starts="10pt">
                                             <fo:list-item margin-bottom="4pt">
                                                 <fo:list-item-label end-indent="label-end()">
@@ -177,28 +175,9 @@
                                     <fo:block margin-top="10px"
                                         font-size="14pt" 
                                         color="#000000">
-                                        Intermediate Skills
+                                        Additional Skills
                                     </fo:block>
-                                    <xsl:for-each select="Skills/Intermediate/Skill">
-                                        <fo:list-block margin-left="5pt" provisional-distance-between-starts="10pt">
-                                            <fo:list-item margin-bottom="4pt">
-                                                <fo:list-item-label end-indent="label-end()">
-                                                    <fo:block>&#x2022;</fo:block>
-                                                </fo:list-item-label>
-                                                <fo:list-item-body start-indent="body-start()">
-                                                    <fo:block font-size="10pt">
-                                                        <xsl:value-of select="."/>
-                                                    </fo:block>
-                                                </fo:list-item-body>
-                                            </fo:list-item>
-                                        </fo:list-block>
-                                    </xsl:for-each>
-                                    <fo:block margin-top="10px"
-                                        font-size="14pt" 
-                                        color="#000000">
-                                        Beginner Skills
-                                    </fo:block>
-                                    <xsl:for-each select="Skills/Beginner/Skill">
+                                    <xsl:for-each select="Skills/Additional/Skill">
                                         <fo:list-block margin-left="5pt" provisional-distance-between-starts="10pt">
                                             <fo:list-item margin-bottom="4pt">
                                                 <fo:list-item-label end-indent="label-end()">

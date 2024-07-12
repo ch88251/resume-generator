@@ -20,8 +20,8 @@ public class ResumeGenerator {
 
     public static void main(String[] args) {
 
-        String xmlPath = "src/main/resources/resume.xml";
-        String xslPath = "src/main/resources/resume.xsl";
+        String xmlPath = "src/main/resources/sdet/resume.xml";
+        String xslPath = "src/main/resources/sdet/resume.xsl";
         String pdfOutputPath = "target/resume.pdf";
 
         try {
