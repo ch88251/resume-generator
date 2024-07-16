@@ -18,29 +18,33 @@
 
     <Skills>
         <Core>
-            <Skill>Java, Javascript, Python</Skill>
-            <Skill>Hibernate, JPA, SQL</Skill>
+            <Skill>Java, Javascript, Typescript, Python</Skill>
+            <Skill>Spring MVC, Spring Cloud, Spring Data, Spring Security, Spring Boot</Skill>
             <Skill>SOAP, REST</Skill>
             <Skill>Microservices</Skill>
             <Skill>Kubernetes, Helm</Skill>
             <Skill>Docker, Docker Compose</Skill>
-            <Skill>Jenkins</Skill>
+            <Skill>Jenkins, Ansible</Skill>
             <Skill>Selenium, Cucumber, Cypress</Skill>
-            <Skill>JUnit, TestNG, Pytest</Skill>
+            <Skill>JUnit, Pytest</Skill>
+            <Skill>Git, Bitbucket, Gitlab</Skill>
+            <Skill>Gradle, Maven</Skill>
         </Core>
         <Additional>
-            <Skill>AWS, GCP, Azure</Skill>
-            <Skill>Spring, Spring Boot</Skill>
-            <Skill>React</Skill>
-            <Skill>Ansible</Skill>
-            <Skill>C++, CMake</Skill>
-            <Skill>GoogleTest, GoogleMock</Skill>
+            <Skill>Familiarity with AWS services</Skill>
+            <Skill>Familiarity with React, Next.js, Bootstrap, Tailwind CSS</Skill>
+            <Skill>Intermediate skills with C, C++, GoogleTest, GoogleMock, CMake</Skill>
             <Skill>PostgreSQL, MySQL, Oracle</Skill>
             <Skill>MongoDB</Skill>
         </Additional>
     </Skills>
 
     <RecentCourses>
+        <Course>
+            <Date>May, 2024</Date>
+            <Name>AWS Solution Architect Training</Name>
+            <Details>6 hours, classroom</Details>
+        </Course>    
         <Course>
             <Date>April, 2024</Date>
             <Name>Elastic Engineer Training</Name>
