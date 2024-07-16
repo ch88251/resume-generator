@@ -8,18 +8,12 @@
         <Github>github.com/ch88251</Github>
     </Header>
     
-    <!-- <Summary>
+    <Summary>
     With over 20 years experience in software engineering, I possess comprehensive expertise across 
     full-stack development, platform, and DevOps. My background includes extensive work in large-scale 
     enterprise software development using Java and related technologies. Committed to continuous learning, 
     I have a proven track record of adapting to diverse tech stacks and delivering successful projects 
     that meet rigorous demands.
-    </Summary> -->
-    <Summary>
-    I am a Senior Software Engineer in Test with over 15 years of experience in software development and
-    over 6 years of experience in test automation. I have a strong background in Java, Python, and 
-    JavaScript, and have worked on a variety of projects ranging from web applications to microservices.
-    I'm an excellent problem solver and have a passion for software quality, automation and continuous delivery.
     </Summary>
 
     <Skills>

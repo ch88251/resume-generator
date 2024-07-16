@@ -8,61 +8,54 @@
         <Github>github.com/ch88251</Github>
     </Header>
     
-    <!-- <Summary>
-    With over 20 years experience in software engineering, I possess comprehensive expertise across 
-    full-stack development, platform, and DevOps. My background includes extensive work in large-scale 
-    enterprise software development using Java and related technologies. Committed to continuous learning, 
-    I have a proven track record of adapting to diverse tech stacks and delivering successful projects 
-    that meet rigorous demands.
-    </Summary> -->
     <Summary>
-    I am a Senior Software Engineer in Test with over 15 years of experience in software development and
-    over 6 years of experience in test automation. I have a strong background in Java, Python, and 
-    JavaScript, and have worked on a variety of projects ranging from web applications to microservices.
-    I'm an excellent problem solver and have a passion for software quality, automation and continuous delivery.
+    Seasoned software engineer with 17 years of experience in software development and 7 years specializing in 
+    software testing as a Software Development Engineer in Test (SDET). Proven expertise in designing and 
+    implementing automated testing frameworks, ensuring high-quality software delivery. Strong background in 
+    various programming languages, testing tools, and methodologies, with a track record of leading teams and 
+    driving process improvements. Seeking to apply my combined experience in development and testing to excel 
+    in SDET roles and contribute to the quality assurance and continuous delivery of software products.
     </Summary>
 
     <Skills>
         <Core>
-            <Skill>Java, Javascript, Python</Skill>
-            <Skill>Hibernate, JPA, SQL</Skill>
-            <Skill>SOAP, REST</Skill>
-            <Skill>Microservices</Skill>
-            <Skill>Kubernetes, Helm</Skill>
-            <Skill>Docker, Docker Compose</Skill>
-            <Skill>Jenkins</Skill>
+            <Skill>Java, Javascript, Typescript, Python</Skill>
+            <Skill>Jenkins, Maven, Gradle</Skill>
+            <Skill>JUnit, TestNG, Pytest, TDD, BDD</Skill>
+            <Skill>SOAP, REST, Postman, SoapUI, ReadyAPI</Skill>
+            <Skill>Docker, Docker Compose, Kubernetes, Ansible</Skill>
             <Skill>Selenium, Cucumber, Cypress</Skill>
-            <Skill>JUnit, TestNG, Pytest</Skill>
+            <Skill>Scrum, Kanban, RUP, Waterfall</Skill>
         </Core>
         <Additional>
-            <Skill>AWS, GCP, Azure</Skill>
-            <Skill>Spring, Spring Boot</Skill>
-            <Skill>React</Skill>
-            <Skill>Ansible</Skill>
-            <Skill>C++, CMake</Skill>
-            <Skill>GoogleTest, GoogleMock</Skill>
+            <Skill>Spring, Spring Boot, Quarkus</Skill>
+            <Skill>React, Angular, Bootstrap, Next.js, Vite, Tailwind CSS, HTML</Skill>
+            <Skill>Elastic Search, Logstash, Kibana</Skill>
             <Skill>PostgreSQL, MySQL, Oracle</Skill>
-            <Skill>MongoDB</Skill>
+            <Skill>AWS Familiarity</Skill>
         </Additional>
     </Skills>
 
-    <Clearance>Secret Clearance</Clearance>
-
     <RecentCourses>
+        <Course>
+            <Date>May, 2024</Date>
+            <Name>AWS Solutions Architect Training</Name>
+            <Details>2 days, classroom</Details>
+        </Course>
         <Course>
             <Date>April, 2024</Date>
             <Name>Elastic Engineer Training</Name>
-            <Details>6 hours, classroom</Details>
+            <Details>5 days, classroom</Details>
         </Course>
         <Course>
             <Date>April, 2020</Date>
             <Name>Building Scalable Java Microservices with Spring Boot and Spring Cloud</Name>
-            <Details>12 hours, Coursera, Grade: 99%</Details>
+            <Details>12 hours, Google Cloud, Grade: 99%</Details>
         </Course>
         <Course>
             <Date>November, 2018</Date>
             <Name>Continuous Delivery and DevOps</Name>
-            <Details>8 hours, Coursera, Grade: 85%</Details>
+            <Details>8 hours, University of Virginia, Grade: 85%</Details>
         </Course>
     </RecentCourses>
 
@@ -103,18 +96,22 @@
             <Period>July 2020 - July 2023</Period>
             <Accomplishments>
                 <Accomplishment>
+                Worked closely with systems engineers, architects and product owners to develop, document and maintain architectures, 
+                requirements, algorithms, interfaces and designs for software systems.
+                </Accomplishment>
+                <Accomplishment>
                 Developed a test automation framework using Python, and Pytest to automate the testing of software used in
                 military satellite communications. Integrated the automation framework with Jenkins to enable continuous
                 integration and continuous testing.
                 </Accomplishment>
                 <Accomplishment>
-                Integrated our software components with the Kubernetes platform to enable the deployment of our software
-                in a containerized environment. This initiative significantly reduced the time required to deploy our software
-                and enabled us to scale our software to meet the demands of our customers.
+                Implemented a solution in Jenkins to publish test results to Jira XRay, providing our product owner with full
+                traceability between requirements and tests.
                 </Accomplishment>
                 <Accomplishment>
-                Collaborate with team members to promptly triage test failures with precision and maintain the health of the 
-                CI/CD pipeline.
+                Successfully demonstrated the capability to transmit video and data from a military satellite ground station 
+                to an orbiting satellite, meeting stringent quality and speed requirements during a high-profile demonstration 
+                at MIT Lincoln Labs.
                 </Accomplishment>
             </Accomplishments>
         </Job>       
@@ -138,11 +135,6 @@
                 test automation scripts that are very easy to read and maintain. The framework was adopted by
                 the team and was a big success.
                 </Accomplishment>
-                <Accomplishment>
-                Integrated the test automation framework with Azure DevOps to enable continuous testing. This
-                initiative significantly reduced the time required to test our software and enabled us to deliver
-                high-quality software to our customers.
-                </Accomplishment>
             </Accomplishments>
         </Job>       
         <Job>
@@ -156,11 +148,7 @@
                 and quality of our Layer3 TV STB (Set Top Box) product's user interface.
                 </Accomplishment>
                 <Accomplishment>
-                Implemented unit tests in our product code base using Jest to enhance code quality and 
-                identify potential issues early in the development cycle.
-                </Accomplishment>
-                <Accomplishment>
-                Championed test-driven development (TDD) practices within the organization by delivering
+                Championed test-driven development (TDD) practices within the engineering organization by delivering
                 a highly informative "Lunch and Learn" session. Shared insights on the benefits of TDD and
                 practical strategies for its implementation.
                 </Accomplishment>
@@ -193,18 +181,17 @@
             <Period>June 2017 - December 2017</Period>
             <Accomplishments>
                 <Accomplishment>
-                Designed and developed a robust test automation framework that uses Gradle, Java 11, 
-                JUnit5, Selenide and Allure. This framework was instrumental in ensuring the reliability 
-                and quality of our Layer3 TV STB (Set Top Box) product's user interface.
+                Helped the platform team develop Chef cookbooks used for infrastructure automation. This included 
+                creating recipes that ensure linux and windows servers have the correct software and packages. I had 
+                no prior experience with Chef but learned it very fast.
                 </Accomplishment>
                 <Accomplishment>
-                Implemented unit tests in our product code base using Jest to enhance code quality and 
-                identify potential issues early in the development cycle.
+                Helped the audit team develop Chef InSpec cookbooks for auditing linux and windows servers to ensure 
+                they meet the stringent compliance regulations.
                 </Accomplishment>
                 <Accomplishment>
-                Championed test-driven development (TDD) practices within the organization by delivering
-                a highly informative "Lunch and Learn" session. Shared insights on the benefits of TDD and
-                practical strategies for its implementation.
+                Worked with DevOps, architects and team leads to design and document CI/CD pipelines as well as define 
+                key performance indicators (KPI) for measuring the effectiveness of our continuous delivery initiatives.
                 </Accomplishment>
             </Accomplishments>
         </Job>          
@@ -214,12 +201,13 @@
             <Period>June 2017 - December 2017</Period>
             <Accomplishments>
                 <Accomplishment>
-                Designed and implemented a robust test automation framework from scratch for UI testing, 
-                significantly reducing manual testing efforts and improving test coverage.
+                Designed and implemented a robust test automation framework from scratch for UI testing.
                 </Accomplishment>
                 <Accomplishment>
-                Developed automated test scripts for API endpoints using Scala and Gatling, leading to an 
-                increase in efficiency and allowing for faster regression testing cycles.
+                Developed automated API functional tests with ReadyAPI.
+                </Accomplishment>
+                <Accomplishment>
+                Developed automated performance and load tests for API endpoints using Scala and Gatling.
                 </Accomplishment>
             </Accomplishments>
         </Job>                 

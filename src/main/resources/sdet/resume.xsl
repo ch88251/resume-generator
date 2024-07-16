@@ -141,14 +141,6 @@
                                         <xsl:value-of select="Summary"/>
                                     </fo:block>
                                     <fo:block margin-top="20px"
-                                        padding="5px"
-                                        background-color="#CD6155"
-                                        text-align="center"
-                                        font-size="16pt" 
-                                        color="#FFFFFF">
-                                        <xsl:value-of select="Clearance"/>
-                                    </fo:block>
-                                    <fo:block margin-top="20px"
                                         font-size="20pt" 
                                         color="#CD6155">
                                         Skills
