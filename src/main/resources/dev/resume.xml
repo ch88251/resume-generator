@@ -20,9 +20,9 @@
         <Core>
             <Skill>Java, Javascript, Typescript, Python</Skill>
             <Skill>Spring MVC, Spring Cloud, Spring Data, Spring Security, Spring Boot</Skill>
+            <Skill>Requirements Analysis, Design Patterns, UML</Skill>
             <Skill>SOAP, REST</Skill>
-            <Skill>Microservices</Skill>
-            <Skill>Kubernetes, Helm</Skill>
+            <Skill>Microservices, Kubernetes, Helm</Skill>
             <Skill>Docker, Docker Compose</Skill>
             <Skill>Jenkins, Ansible</Skill>
             <Skill>Selenium, Cucumber, Cypress</Skill>
@@ -255,7 +255,7 @@
             </Accomplishments>
         </Job>
         <Job>
-            <Company>TEKsystems</Company>
+            <Company>TEKsystems (contract)</Company>
             <Title>Senior Software Engineer</Title>
             <Period>February 2013 - December 2013</Period>
             <Accomplishments>
