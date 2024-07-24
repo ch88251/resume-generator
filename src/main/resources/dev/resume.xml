@@ -229,7 +229,7 @@
                 </Accomplishment>
             </Accomplishments>
         </Job>                 
-        <!-- <Job>
+        <Job>
             <Company>Colorado Interactive</Company>
             <Title>Lead Software Engineer</Title>
             <Period>August 2014 - April 2016</Period>
@@ -285,7 +285,8 @@
                 </Accomplishment>
                 <Accomplishment>
                 Played a pivotal role in the design and implementation of a Service-Oriented Architecture 
-                (SOA), leveraging web services to enhance interoperability and collaboration across healthcare entities.
+                (SOA), leveraging web services, enterprise service bus (ESB), and message-driven beans to 
+                enhance interoperability and collaboration across healthcare entities.
                 </Accomplishment>
                 <Accomplishment>
                 Collaborated with cross-functional teams to interpret and implement regulatory requirements, 
@@ -293,7 +294,7 @@
                 set forth by the ARRA initiative.
                 </Accomplishment>
             </Accomplishments>
-        </Job> -->
+        </Job>
     </Jobs>
 
     <Education>
