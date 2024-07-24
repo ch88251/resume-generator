@@ -31,7 +31,7 @@
             <Skill>Gradle, Maven</Skill>
         </Core>
         <Additional>
-            <Skill>Familiarity with AWS services</Skill>
+            <Skill>Hands-on experience with some AWS services such as IAM, EC2, S3 and DynamoDB.</Skill>
             <Skill>Familiarity with React, Next.js, Bootstrap, Tailwind CSS</Skill>
             <Skill>Intermediate skills with C, C++, GoogleTest, GoogleMock, CMake</Skill>
             <Skill>PostgreSQL, MySQL, Oracle</Skill>
@@ -62,6 +62,12 @@
         </Course>
     </RecentCourses>
 
+    <Activities>
+        <Activity>Long-Distance Running</Activity>
+        <Activity>Acrylic and Oil Painting</Activity>
+        <Activity>Arduino and Raspberry Pi Projects</Activity>
+    </Activities>
+
     <Certifications>
         <Certification>
             <Name></Name>
@@ -77,19 +83,23 @@
             <Period>July 2023 - Present</Period>
             <Accomplishments>
                 <Accomplishment>
-                Developed ansible playbooks for automating the installation and configuration of critical infrastructure.
+                Modernized a React application to leverage new features such as Suspense and Concurrent Mode to 
+                improve the responsiveness and overall user experience.
+                </Accomplishment>
+                <Accomplishment>
+                Utilized Material UI's component library to accelerate development and maintain consistency 
+                in UI elements across various projects.
                 </Accomplishment>
                 <Accomplishment>
                 Implemented a new software capability that allows cyber security analysts to search and 
                 preserve PCAP files for future analysis.
                 </Accomplishment>
                 <Accomplishment>
-                Configured an ILM policy in elastic search to resolve a critical defect where packetbeat 
-                indexes were filling up and not rolling over properly.
+                Developed ansible playbooks for automating the installation and configuration of critical infrastructure.
                 </Accomplishment>
                 <Accomplishment>
-                Created cypress tests for end-to-end validation, significantly enhancing our 
-                software's quality assurance by closing a critical testing gap
+                Configured an ILM policy in elastic search to resolve a critical defect where packetbeat 
+                indexes were filling up and not rolling over properly.
                 </Accomplishment>
             </Accomplishments>
         </Job>

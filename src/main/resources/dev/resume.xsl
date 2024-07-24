@@ -223,6 +223,25 @@
                                             <xsl:value-of select="./Major"/>
                                         </fo:block>
                                     </xsl:for-each>
+                                    <fo:block margin-top="20px"
+                                        font-size="20pt" 
+                                        color="#CD6155">
+                                        My Hobbies
+                                    </fo:block>
+                                    <xsl:for-each select="Activities/Activity">
+                                        <fo:list-block margin-left="5pt" provisional-distance-between-starts="10pt">
+                                            <fo:list-item margin-bottom="4pt">
+                                                <fo:list-item-label end-indent="label-end()">
+                                                    <fo:block>&#x2022;</fo:block>
+                                                </fo:list-item-label>
+                                                <fo:list-item-body start-indent="body-start()">
+                                                    <fo:block font-size="10pt">
+                                                        <xsl:value-of select="."/>
+                                                    </fo:block>
+                                                </fo:list-item-body>
+                                            </fo:list-item>
+                                        </fo:list-block>
+                                    </xsl:for-each>
                                 </fo:table-cell>                                                         
                             </fo:table-row>
                         </fo:table-body>
