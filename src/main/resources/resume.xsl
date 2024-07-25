@@ -106,12 +106,12 @@
                                             </fo:block>                                    
                                         </xsl:for-each>
                                     </fo:block>
-                                    <!-- <fo:block 
+                                    <fo:block 
                                         padding-top="10px"
                                         font-size="20pt" 
                                         color="#CD6155">
                                         Additional Work Experience
-                                    </fo:block> -->
+                                    </fo:block>
                                     <fo:block>
                                         <xsl:for-each select="AdditionalJobs/Job">
                                             <fo:block font-size="12pt" font-weight="bold" keep-with-next="always">
@@ -139,6 +139,14 @@
                                     </fo:block>
                                     <fo:block font-size="10pt">
                                         <xsl:value-of select="Summary"/>
+                                    </fo:block>
+                                    <fo:block margin-top="20px"
+                                        padding="5px"
+                                        background-color="#CD6155"
+                                        text-align="center"
+                                        font-size="16pt" 
+                                        color="#FFFFFF">
+                                        <xsl:value-of select="Clearance"/>
                                     </fo:block>
                                     <fo:block margin-top="20px"
                                         font-size="20pt" 
@@ -214,6 +222,25 @@
                                         <fo:block font-size="10pt" margin-bottom="20px">
                                             <xsl:value-of select="./Major"/>
                                         </fo:block>
+                                    </xsl:for-each>
+                                    <fo:block margin-top="20px"
+                                        font-size="20pt" 
+                                        color="#CD6155">
+                                        My Hobbies
+                                    </fo:block>
+                                    <xsl:for-each select="Activities/Activity">
+                                        <fo:list-block margin-left="5pt" provisional-distance-between-starts="10pt">
+                                            <fo:list-item margin-bottom="4pt">
+                                                <fo:list-item-label end-indent="label-end()">
+                                                    <fo:block>&#x2022;</fo:block>
+                                                </fo:list-item-label>
+                                                <fo:list-item-body start-indent="body-start()">
+                                                    <fo:block font-size="10pt">
+                                                        <xsl:value-of select="."/>
+                                                    </fo:block>
+                                                </fo:list-item-body>
+                                            </fo:list-item>
+                                        </fo:list-block>
                                     </xsl:for-each>
                                 </fo:table-cell>                                                         
                             </fo:table-row>
